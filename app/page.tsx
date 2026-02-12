@@ -27,7 +27,7 @@ export default function Home() {
           <div className="mt-6 flex flex-wrap gap-4 text-sm">
             <a
               className="text-blue-600 hover:underline underline-offset-4"
-              href="https://github.com/"
+              href="https://github.com/elena-h-w/"
               target="_blank"
               rel="noreferrer"
             >
@@ -35,7 +35,7 @@ export default function Home() {
             </a>
             <a
               className="text-blue-600 hover:underline underline-offset-4"
-              href="https://www.linkedin.com/"
+              href="https://www.linkedin.com/in/elenawang/"
               target="_blank"
               rel="noreferrer"
             >
@@ -43,7 +43,7 @@ export default function Home() {
             </a>
             <a
               className="text-blue-600 hover:underline underline-offset-4"
-              href="mailto:youremail@example.com"
+              href="mailto:elenawong1031@gmail.com"
             >
               Email
             </a>
@@ -55,7 +55,7 @@ export default function Home() {
         {/* Selected Work */}
         <section>
           <h2 className="text-sm font-semibold tracking-wide text-neutral-900">
-            Selected Work
+            Featured Project
           </h2>
 
           <div className="mt-6 rounded-xl border border-neutral-200 p-6">
