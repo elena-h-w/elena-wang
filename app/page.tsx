@@ -53,31 +53,35 @@ export default function Home() {
          <hr className="my-12 border-neutral-200" />
 
                 {/* About */}
-                <section>
-          <h2 className="text-sm font-semibold tracking-wide text-neutral-900">
-            About
-          </h2>
+<section>
+  <h2 className="text-sm font-semibold tracking-wide text-neutral-900">
+    About
+  </h2>
 
-          <div className="mt-6 space-y-4 text-sm leading-6 text-neutral-700">
-            <p>
-              I’m a marketing leader with a background in financial services,
-              now building at the intersection of AI, product, and growth.
-            </p>
-            <p>
-              Over the past several years, I’ve led global product marketing,
-              GTM strategy, and lifecycle initiatives across complex, high-trust
-              markets. More recently, I’ve been prototyping AI-powered tools
-              using modern AI-assisted workflows (&quot;vibe coding&quot;) and LLM APIs
-              to better understand how AI products are built, shipped, and scaled.
-            </p>
-            <p>
-              I’m particularly interested in how structured systems, model
-              economics, and product mechanics translate into sustained adoption.
-              My goal is to bridge technical capability with clear positioning,
-              distribution strategy, and measurable impact.
-            </p>
-          </div>
-        </section>
+  <div className="mt-6 space-y-4 text-sm leading-6 text-neutral-700">
+  <p>
+    I’m a product marketing and GTM leader focused on driving adoption and 
+    revenue growth for technology platforms. I’ve partnered closely with 
+    Product and Engineering to shape positioning, rollout strategy, and 
+    lifecycle programs that translate customer insight into measurable usage 
+    and revenue impact.
+  </p>
+
+  <p>
+   As AI reshapes how products are built and distributed, I’ve been prototyping 
+   AI-powered workflows end-to-end using AI-assisted development (“vibe coding”) 
+   and deploying them to production. This hands-on experience taught me what it 
+   takes to build usable AI products: structured inputs, iteration loops, and 
+   tradeoffs around latency and inference cost.
+  </p>
+
+  <p>
+   My goal is to help AI companies bridge technical capability with clear positioning, 
+   combining hands-on product understanding with distribution strategy that drives 
+   sustained adoption and growth.
+  </p>
+</div>
+</section>
 
         <hr className="my-12 border-neutral-200" />
 
@@ -167,21 +171,6 @@ export default function Home() {
             <li>Stateful systems outperform one-shot prompts.</li>
             <li>AI is most powerful when embedded in real workflows.</li>
             <li>Product mechanics and distribution evolve together.</li>
-          </ul>
-        </section>
-
-        <hr className="my-12 border-neutral-200" />
-
-        {/* Currently Exploring */}
-        <section>
-          <h2 className="text-sm font-semibold tracking-wide text-neutral-900">
-            Currently Exploring
-          </h2>
-
-          <ul className="mt-6 list-disc space-y-2 pl-5 text-sm leading-6 text-neutral-700">
-            <li>Probabilistic decision systems</li>
-            <li>Bias calibration tooling</li>
-            <li>AI-assisted structured workflows</li>
           </ul>
         </section>
 
