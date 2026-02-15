@@ -60,11 +60,11 @@ export default function Home() {
 
   <div className="mt-6 space-y-4 text-sm leading-6 text-neutral-700">
   <p>
-    I’m a product marketing and GTM leader focused on driving adoption and 
-    revenue growth for technology platforms. I’ve partnered closely with 
-    Product and Engineering to shape positioning, rollout strategy, and 
-    lifecycle programs that translate customer insight into measurable usage 
-    and revenue impact.
+    I’m Elena Wang, a product marketing and GTM leader focused on driving 
+    adoption and revenue growth for technology platforms. I’ve partnered 
+    closely with Product and Engineering to shape positioning, rollout 
+    strategy, and lifecycle programs that translate customer insight into 
+    measurable usage and revenue impact.
   </p>
 
   <p>

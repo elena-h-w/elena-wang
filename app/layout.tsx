@@ -14,20 +14,24 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://elenahw.com"),
+  metadataBase: new URL("https://www.elenahw.com"),
   title: {
-    default: "Elena Wang",
+    default: "Elena Wang | Product Marketing & GTM Leader | AI Product Builder",
     template: "%s | Elena Wang",
   },
   description:
-    "Product marketing and GTM leader building AI-powered tools and translating technical systems into sustained growth. Hands-on experience with LLM workflows, product iteration, and inference economics.",
+    "Product marketing and GTM leader building AI-powered products from concept to production, driving strategic positioning and measurable growth.",
   alternates: {
-    canonical: "https://elenahw.com",
+    canonical: "https://www.elenahw.com",
+  },
+  icons: {
+    icon: "/favicon.ico",
+    apple: "/apple-touch-icon.png",
   },
   openGraph: {
     title: "Elena Wang",
     description: "I build AI-powered tools and translate them into growth.",
-    url: "https://elenahw.com",
+    url: "https://www.elenahw.com",
     siteName: "Elena Wang",
     images: [
       {
@@ -75,7 +79,7 @@ export default function RootLayout({
               "@context": "https://schema.org",
               "@type": "Person",
               name: "Elena Wang",
-              url: "https://elenahw.com",
+              url: "https://www.elenahw.com",
               jobTitle: "Product Marketing & GTM Leader",
               sameAs: [
                 "https://www.linkedin.com/in/elenawang/",
