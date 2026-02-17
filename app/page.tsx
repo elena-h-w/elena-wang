@@ -80,6 +80,13 @@ export default function Home() {
    combining hands-on product understanding with distribution strategy that drives 
    sustained adoption and growth.
   </p>
+
+  <p>
+   Outside of work, I’m an avid traveler who has visited over 50 countries across 
+   all seven continents — an experience that deepens my curiosity about how different 
+   cultures approach and solve problems, shaping how I think about marketing and 
+   building products for diverse users.
+  </p>
 </div>
 </section>
 
