@@ -243,7 +243,7 @@ export default function Home() {
   </div>
 
   <div>
-    <p className="text-sm font-semibold text-neutral-900">
+    <p className="mt-8 text-sm font-semibold text-neutral-900">
       Ultimately, I believe product mechanics and distribution must evolve 
       together—technical capability only matters if the distribution model 
       is built into the product's DNA.
