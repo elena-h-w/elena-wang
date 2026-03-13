@@ -223,16 +223,6 @@ export default function Home() {
 
   <div className="mt-6 grid grid-cols-1 md:grid-cols-2 gap-8">
     <div>
-      <h3 className="text-xs font-bold uppercase tracking-wider text-neutral-500">AI & Systems</h3>
-      <ul className="mt-4 list-disc space-y-2 pl-5 text-sm leading-6 text-neutral-700">
-        <li>AI features fail without structured input systems.</li>
-        <li>Inference cost is a product constraint, not an afterthought.</li>
-        <li>Stateful systems outperform one-shot prompts.</li>
-        <li>AI is most powerful when embedded in real workflows.</li>
-      </ul>
-    </div>
-    
-    <div>
       <h3 className="text-xs font-bold uppercase tracking-wider text-neutral-500">Mobile & Networking</h3>
       <ul className="mt-4 list-disc space-y-2 pl-5 text-sm leading-6 text-neutral-700">
         <li>Networking utility is built on the follow-up, not the connection.</li>
@@ -241,9 +231,18 @@ export default function Home() {
         <li>Successful products focus on retention loops over vanity metrics.</li>
       </ul>
     </div>
+    <div>
+      <h3 className="text-xs font-bold uppercase tracking-wider text-neutral-500">AI & Systems</h3>
+      <ul className="mt-4 list-disc space-y-2 pl-5 text-sm leading-6 text-neutral-700">
+        <li>AI features fail without structured input systems.</li>
+        <li>Inference cost is a product constraint, not an afterthought.</li>
+        <li>Stateful systems outperform one-shot prompts.</li>
+        <li>AI is most powerful when embedded in real workflows.</li>
+      </ul>
+    </div>
   </div>
 
-  <div className="mt-8 border-l-2 border-blue-600 pl-4">
+  <div>
     <p className="text-sm font-semibold text-neutral-900">
       Ultimately, I believe product mechanics and distribution must evolve 
       together—technical capability only matters if the distribution model 
