@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://www.elenahw.com"),
+  metadataBase: new URL("https://elenahw.com"),
   title: {
     default: "Elena Wang | Product Marketing & GTM Leader | AI Product Builder",
     template: "%s | Elena Wang",
@@ -22,7 +22,7 @@ export const metadata: Metadata = {
   description:
     "Product marketing and GTM leader building AI-powered products from concept to production, driving strategic positioning and measurable growth.",
   alternates: {
-    canonical: "https://www.elenahw.com",
+    canonical: "https://elenahw.com",
   },
   icons: {
     icon: "/favicon.ico",
@@ -31,7 +31,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Elena Wang",
     description: "I build AI-powered tools and translate them into growth.",
-    url: "https://www.elenahw.com",
+    url: "https://elenahw.com",
     siteName: "Elena Wang",
     images: [
       {
@@ -79,7 +79,7 @@ export default function RootLayout({
               "@context": "https://schema.org",
               "@type": "Person",
               name: "Elena Wang",
-              url: "https://www.elenahw.com",
+              url: "https://elenahw.com",
               jobTitle: "Product Marketing & GTM Leader",
               sameAs: [
                 "https://www.linkedin.com/in/elenawang/",
@@ -96,7 +96,7 @@ export default function RootLayout({
             "@context": "https://schema.org",
             "@type": "WebSite",
             name: "Elena Wang",
-            url: "https://www.elenahw.com",
+            url: "https://elenahw.com",
       }),
     }}
   />

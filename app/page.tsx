@@ -102,12 +102,12 @@ export default function Home() {
 <div className="mt-8 rounded-xl border border-neutral-200 p-6">
   <h3 className="text-lg font-semibold">Waylena</h3>
   <p className="mt-1 text-sm text-neutral-600">
-    Mobile-first networking app for professionals
+    Mobile app for professionals to track career conversations and follow up
   </p>
   <div className="mt-3 flex flex-wrap gap-4 text-sm">
     <a
       className="text-blue-600 hover:underline underline-offset-4"
-      href="https://www.waylena.com/"
+      href="https://waylena.com/"
       target="_blank"
       rel="noreferrer"
     >
