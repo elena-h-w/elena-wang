@@ -8,5 +8,17 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: 'monthly',
       priority: 1,
     },
+    {
+      url: 'https://elenahw.com/writing',
+      lastModified: new Date(),
+      changeFrequency: 'monthly',
+      priority: 0.8,
+    },
+    {
+      url: 'https://elenahw.com/writing/build-two-products-in-eight-weeks',
+      lastModified: new Date('2026-03-19'),
+      changeFrequency: 'yearly',
+      priority: 0.7,
+    },
   ]
 }
