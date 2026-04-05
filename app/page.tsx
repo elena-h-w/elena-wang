@@ -105,7 +105,8 @@ export default function Home() {
                 Outside of work, I'm an avid traveler who has visited over 50 countries across
                 all seven continents — an experience that deepens my curiosity about how different
                 cultures approach and solve problems, shaping how I think about marketing and
-                building products for diverse users.
+                building products for diverse users. I also enjoy staying active, challenging
+                myself, and hitting goals — including finishing the NYC Marathon a few years ago.
               </p>
             </div>
           </section>
