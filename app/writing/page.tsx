@@ -20,6 +20,7 @@ export const metadata: Metadata = {
     title: "Writing | Elena Wang",
     description:
       "Writing on AI product building, go-to-market strategy, product marketing, and lessons learned along the way.",
+    images: ["/og.png"],
   },
 };
 

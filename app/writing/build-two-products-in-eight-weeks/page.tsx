@@ -22,6 +22,7 @@ export const metadata: Metadata = {
     title: "When a Ski Trip Injury Led Me to Build Two Products in Eight Weeks",
     description:
       "I don't usually share personal stories. But if you've been thinking about starting something and keep putting it off, this might be the push you need.",
+    images: ["/og.png"],
   },
 };
 
