@@ -150,6 +150,14 @@ export default function Home() {
                 >
                   App Store
                 </a>
+                <a
+                  className="text-blue-600 hover:underline underline-offset-4"
+                  href="https://play.google.com/store/apps/details?id=com.elenahw.Waylena"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Google Play
+                </a>
               </div>
 
               <ul className="mt-4 list-disc space-y-2 pl-5 text-sm leading-6 text-neutral-700">
@@ -157,7 +165,7 @@ export default function Home() {
                   Designed conversation-centric UX with multi-select topic tagging, follow-up
                   reminders, and networking insights
                 </li>
-                <li>Launched on the App Store; Android in testing</li>
+                <li>Launched on the App Store and Google Play</li>
               </ul>
               <p className="mt-4 text-sm text-neutral-700">
                 This project pushed me into mobile product development — navigating app
