@@ -131,7 +131,7 @@ export default function Home() {
             <div className="mt-8 rounded-xl border border-neutral-200 p-6">
               <h3 className="text-lg font-semibold">Waylena</h3>
               <p className="mt-1 text-sm text-neutral-600">
-                Mobile app for professionals to track career conversations and follow up
+                Mobile networking tracker app for professionals to log career conversations and follow up
               </p>
               <div className="mt-3 flex flex-wrap gap-4 text-sm">
                 <a
@@ -188,7 +188,8 @@ export default function Home() {
             <div className="mt-6 rounded-xl border border-neutral-200 p-6">
               <h3 className="text-lg font-semibold">Impact Logger</h3>
               <p className="mt-1 text-sm text-neutral-600">
-                AI-powered narrative system for structured impact tracking
+                AI-powered web app for professionals to track their impact and generate 
+                narratives for performance reviews, promotions, role changes, and resumes.
               </p>
               <div className="mt-3 flex flex-wrap gap-4 text-sm">
                 <a
