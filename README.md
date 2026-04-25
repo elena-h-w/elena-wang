@@ -8,7 +8,7 @@ This is my personal website built with Next.js and Tailwind CSS.
 
 The site highlights:
 - My work in AI product marketing and GTM
-- Hands-on AI experimentation (Waylena and Impact Logger)
+- Hands-on AI experimentation (Waylena, Impact Logger, and Back on Track)
 - How I think about AI product mechanics and growth
 
 The goal was to create a minimal, fast, content-focused site that reflects clarity of thinking rather than visual complexity.

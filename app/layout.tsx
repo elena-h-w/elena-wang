@@ -1,11 +1,18 @@
 import Script from "next/script";
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Inter, JetBrains_Mono } from "next/font/google";
 import "./globals.css";
 
 const inter = Inter({
   variable: "--font-inter",
   subsets: ["latin"],
+  weight: ["400", "500", "600"],
+});
+
+const jetbrainsMono = JetBrains_Mono({
+  variable: "--font-jetbrains-mono",
+  subsets: ["latin"],
+  weight: ["400", "500"],
 });
 
 export const metadata: Metadata = {
@@ -33,7 +40,7 @@ export const metadata: Metadata = {
         url: "/og.png",
         width: 1200,
         height: 630,
-        alt: "Elena Wang — AI tools + growth",
+        alt: "Elena Wang — AI products + growth",
       },
     ],
     locale: "en_US",
@@ -66,7 +73,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${inter.variable} antialiased`}>
+      <body className={`${inter.variable} ${jetbrainsMono.variable} antialiased`}>
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
@@ -76,9 +83,22 @@ export default function RootLayout({
               name: "Elena Wang",
               url: "https://elenahw.com",
               jobTitle: "Product Marketing & GTM Leader",
+              description:
+                "Product marketing and GTM leader building AI-powered products from concept to production, driving strategic positioning and measurable growth.",
+              knowsAbout: [
+                "Product Marketing",
+                "Go-to-Market Strategy",
+                "AI Product Development",
+                "Product-Led Growth",
+                "Mobile App Development",
+                "React Native",
+                "Large Language Models",
+              ],
               sameAs: [
                 "https://www.linkedin.com/in/elenawang/",
+                "https://x.com/Elena_H_W",
                 "https://github.com/elena-h-w/",
+                "https://www.instagram.com/elena.h.w/",
               ],
             }),
           }}

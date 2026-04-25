@@ -5,7 +5,8 @@
       "Bash(/usr/local/bin/npx next:*)",
       "Read(//usr/local/bin/**)",
       "Read(//Users/elenawang/.nvm/versions/node/**)",
-      "Bash(/usr/local/bin/node node_modules/.bin/next build)"
+      "Bash(/usr/local/bin/node node_modules/.bin/next build)",
+      "Bash(/usr/local/bin/node node_modules/.bin/tsc --noEmit)"
     ]
   }
 }

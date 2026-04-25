@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
-import Nav from "../components/Nav";
-import Footer from "../components/Footer";
+import Nav from "../components/site/Nav";
+import Footer from "../components/site/Footer";
 
 export const metadata: Metadata = {
-  title: "Writing",
+  title: "Writing | Elena Wang",
   description:
     "Writing on AI product building, go-to-market strategy, product marketing, and lessons learned along the way.",
   alternates: {
@@ -28,55 +28,136 @@ const articles = [
   {
     title: "When a Ski Trip Injury Led Me to Build Two Products in Eight Weeks",
     date: "March 19, 2026",
+    type: "Essay",
     excerpt:
       "I don't usually share personal stories. But if you've been thinking about starting something and keep putting it off, this might be the push you need.",
     slug: "build-two-products-in-eight-weeks",
   },
 ];
 
-export default function Writing() {
+export default function WritingIndex() {
   return (
-    <>
-      <Nav activePage="writing" />
+    <div style={{ minHeight: "100vh", background: "var(--paper)" }}>
+      <Nav />
 
-      <main className="min-h-screen bg-white text-neutral-900 antialiased">
-        <div className="mx-auto max-w-3xl px-6 py-16">
-
-          <h1 className="text-3xl font-semibold tracking-tight">Writing</h1>
-          <p className="mt-3 text-sm text-neutral-600">
-            Writing on AI product building, go-to-market strategy, product marketing, and lessons learned along the way.
-          </p>
-
-          <hr className="my-10 border-neutral-200" />
-
-          <div className="space-y-10">
-            {articles.map((article) => (
-              <article key={article.title} className="border-l-2 border-neutral-200 pl-5">
-                <p className="text-xs text-neutral-400">{article.date}</p>
-                <h2 className="mt-1 text-base font-semibold text-neutral-900">
-                  <a
-                    href={`/writing/${article.slug}`}
-                    className="hover:underline underline-offset-4"
-                  >
-                    {article.title}
-                  </a>
-                </h2>
-                <p className="mt-2 text-sm leading-6 text-neutral-600">
-                  {article.excerpt}
-                </p>
-                <a
-                  href={`/writing/${article.slug}`}
-                  className="mt-3 inline-block text-sm text-blue-600 hover:underline underline-offset-4"
-                >
-                  Read more →
-                </a>
-              </article>
-            ))}
+      <main>
+        <div style={{ maxWidth: 1320, margin: "0 auto" }}>
+          {/* Page header */}
+          <div
+            className="section-pad"
+            style={{
+              padding: "64px 56px 48px",
+              borderBottom: "1px solid var(--rule)",
+            }}
+          >
+            <a
+              href="/"
+              className="link-soft"
+              style={{ fontSize: 13, fontWeight: 500 }}
+            >
+              ← Home
+            </a>
+            <h1
+              style={{
+                fontSize: "clamp(32px, 4vw, 48px)",
+                fontWeight: 500,
+                letterSpacing: "-0.025em",
+                lineHeight: 1.1,
+                color: "var(--ink)",
+                marginTop: 24,
+                marginBottom: 12,
+              }}
+            >
+              Writing
+            </h1>
+            <p style={{ fontSize: 15, color: "var(--ink-soft)", lineHeight: 1.6, maxWidth: 560 }}>
+              Thoughts on AI product building, go-to-market strategy, and lessons learned along the way.
+            </p>
           </div>
 
-          <Footer />
+          {/* Article list */}
+          <div
+            className="section-pad"
+            style={{ padding: "48px 56px 96px", display: "grid", gap: 16 }}
+          >
+            {articles.map((article) => (
+              <a
+                key={article.slug}
+                href={`/writing/${article.slug}`}
+                className="writing-card"
+                style={{ maxWidth: "none" }}
+              >
+                {/* Top row: date + type */}
+                <div
+                  style={{
+                    display: "flex",
+                    justifyContent: "space-between",
+                    alignItems: "center",
+                    marginBottom: 16,
+                  }}
+                >
+                  <span
+                    className="mono"
+                    style={{
+                      fontSize: 11,
+                      color: "var(--ink-faint)",
+                      letterSpacing: "0.14em",
+                      textTransform: "uppercase",
+                    }}
+                  >
+                    {article.date}
+                  </span>
+                  <span
+                    className="mono"
+                    style={{
+                      fontSize: 11,
+                      color: "var(--ink-faint)",
+                      letterSpacing: "0.14em",
+                      textTransform: "uppercase",
+                    }}
+                  >
+                    {article.type}
+                  </span>
+                </div>
+
+                {/* Title */}
+                <h2
+                  style={{
+                    fontSize: 22,
+                    fontWeight: 500,
+                    letterSpacing: "-0.015em",
+                    lineHeight: 1.3,
+                    color: "var(--ink)",
+                    marginBottom: 10,
+                  }}
+                >
+                  {article.title}
+                </h2>
+
+                {/* Excerpt */}
+                <p
+                  style={{
+                    fontSize: 14,
+                    color: "var(--ink-soft)",
+                    lineHeight: 1.65,
+                    marginBottom: 16,
+                  }}
+                >
+                  {article.excerpt}
+                </p>
+
+                <span
+                  style={{ fontSize: 13, fontWeight: 500, color: "var(--accent)" }}
+                >
+                  Read more →
+                </span>
+              </a>
+            ))}
+          </div>
         </div>
       </main>
-    </>
+
+      <Footer />
+    </div>
   );
 }
