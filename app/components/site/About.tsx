@@ -9,7 +9,7 @@ export default function About() {
           id="about"
           num="01"
           kicker="About"
-          title="Marketer who ships, builder who positions"
+          title="My background & interests"
         />
         <div
           className="section-pad grid-cols-1 md:grid-cols-2"

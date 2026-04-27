@@ -32,7 +32,7 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title: "Elena Wang",
-    description: "I build AI-powered products and translate them into growth.",
+    description: "Marketer who ships, builder who positions. Product marketing and GTM leader driving adoption and growth.",
     url: "https://elenahw.com",
     siteName: "Elena Wang",
     images: [
@@ -40,7 +40,7 @@ export const metadata: Metadata = {
         url: "/og.png",
         width: 1200,
         height: 630,
-        alt: "Elena Wang — AI products + growth",
+        alt: "Elena Wang — Marketer who ships, builder who positions",
       },
     ],
     locale: "en_US",
@@ -50,7 +50,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Elena Wang",
     description:
-      "Product marketing leader building AI-powered products and translating them into growth.",
+      "Marketer who ships, builder who positions. Product marketing and GTM leader driving adoption and growth.",
     images: ["/og.png"],
   },
   robots: {

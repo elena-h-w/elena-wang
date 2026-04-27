@@ -21,8 +21,7 @@ export const name = "Elena Wang";
 export const role = "Product Marketing & GTM Leader";
 export const role2 = "AI Product Builder";
 
-export const heroHeadline =
-  "I build AI-powered products and translate them into adoption and growth.";
+export const heroHeadline = "Marketer who ships, builder who positions.";
 
 export const heroSub =
   "Product marketing & GTM leader building and shipping AI-powered workflows to understand how technical capability translates into adoption, usage, and revenue growth. I focus on structured systems, iteration, and the real-world tradeoffs that shape AI product success.";
