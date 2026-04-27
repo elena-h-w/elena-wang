@@ -117,12 +117,30 @@ export const strategy: { groups: StrategyGroup[]; closing: string } = {
     "Ultimately, I believe product mechanics and distribution strategy must evolve together — technical capability only matters if the distribution model is built into the product’s DNA.",
 };
 
-export const writing = {
-  date: "March 19, 2026",
-  title: "When a Ski Trip Injury Led Me to Build Two Products in Eight Weeks",
-  dek: "I don’t usually share personal stories. But if you’ve been thinking about starting something and keep putting it off, this might be the push you need.",
-  slug: "build-two-products-in-eight-weeks",
+export type Article = {
+  title: string;
+  date: string;
+  type: string;
+  dek: string;
+  slug: string;
 };
+
+export const writings: Article[] = [
+  {
+    title: "What Building Three Apps Taught Me That I Didn’t Expect",
+    date: "April 27, 2026",
+    type: "Article",
+    dek: "Three months ago I had never shipped an app. Today I have two web apps and one mobile app on the App Store and Google Play. Here’s what building them actually taught me.",
+    slug: "what-building-three-apps-taught-me",
+  },
+  {
+    title: "When a Ski Trip Injury Led Me to Build Two Products in Eight Weeks",
+    date: "March 19, 2026",
+    type: "Story",
+    dek: "I don’t usually share personal stories. But if you’ve been thinking about starting something and keep putting it off, this might be the push you need.",
+    slug: "build-two-products-in-eight-weeks",
+  },
+];
 
 export const contact = {
   line1:

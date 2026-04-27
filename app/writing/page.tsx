@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Nav from "../components/site/Nav";
 import Footer from "../components/site/Footer";
+import { writings } from "../../lib/content";
 
 export const metadata: Metadata = {
   title: "Writing | Elena Wang",
@@ -23,17 +24,6 @@ export const metadata: Metadata = {
     images: ["/og.png"],
   },
 };
-
-const articles = [
-  {
-    title: "When a Ski Trip Injury Led Me to Build Two Products in Eight Weeks",
-    date: "March 19, 2026",
-    type: "Story",
-    excerpt:
-      "I don't usually share personal stories. But if you've been thinking about starting something and keep putting it off, this might be the push you need.",
-    slug: "build-two-products-in-eight-weeks",
-  },
-];
 
 export default function WritingIndex() {
   return (
@@ -71,7 +61,7 @@ export default function WritingIndex() {
               Writing
             </h1>
             <p style={{ fontSize: 15, color: "var(--ink-soft)", lineHeight: 1.6, maxWidth: 560 }}>
-              Thoughts on AI product building, go-to-market strategy, and lessons learned along the way.
+              Thoughts on AI product building, go-to-market strategy, and lessons learned along the way — plus the personal stories behind the scenes.
             </p>
           </div>
 
@@ -80,7 +70,7 @@ export default function WritingIndex() {
             className="section-pad"
             style={{ padding: "48px 56px 96px", display: "grid", gap: 16 }}
           >
-            {articles.map((article) => (
+            {writings.map((article) => (
               <a
                 key={article.slug}
                 href={`/writing/${article.slug}`}
@@ -143,7 +133,7 @@ export default function WritingIndex() {
                     marginBottom: 16,
                   }}
                 >
-                  {article.excerpt}
+                  {article.dek}
                 </p>
 
                 <span

@@ -15,6 +15,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.8,
     },
     {
+      url: 'https://elenahw.com/writing/what-building-three-apps-taught-me',
+      lastModified: new Date('2026-04-27'),
+      changeFrequency: 'yearly',
+      priority: 0.7,
+    },
+    {
       url: 'https://elenahw.com/writing/build-two-products-in-eight-weeks',
       lastModified: new Date('2026-03-19'),
       changeFrequency: 'yearly',

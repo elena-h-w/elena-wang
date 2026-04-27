@@ -1,8 +1,8 @@
-import { writing } from "../../../lib/content";
+import { writings } from "../../../lib/content";
 import SectionHead from "./SectionHead";
 
 export default function Writing() {
-  const href = `/writing/${writing.slug}`;
+  const featured = writings.slice(0, 3);
 
   return (
     <section>
@@ -22,78 +22,84 @@ export default function Writing() {
             </a>
           }
         />
-        <div className="section-pad" style={{ padding: "0 56px 64px" }}>
-          <a href={href} className="writing-card">
-            {/* Top row: date + type */}
-            <div
-              style={{
-                display: "flex",
-                justifyContent: "space-between",
-                alignItems: "center",
-                marginBottom: 16,
-              }}
+        <div className="section-pad" style={{ padding: "0 56px 64px", display: "grid", gap: 16 }}>
+          {featured.map((article) => (
+            <a
+              key={article.slug}
+              href={`/writing/${article.slug}`}
+              className="writing-card"
             >
-              <span
-                className="mono"
+              {/* Top row: date + type */}
+              <div
                 style={{
-                  fontSize: 11,
-                  color: "var(--ink-faint)",
-                  letterSpacing: "0.14em",
-                  textTransform: "uppercase",
+                  display: "flex",
+                  justifyContent: "space-between",
+                  alignItems: "center",
+                  marginBottom: 16,
                 }}
               >
-                {writing.date}
-              </span>
-              <span
-                className="mono"
+                <span
+                  className="mono"
+                  style={{
+                    fontSize: 11,
+                    color: "var(--ink-faint)",
+                    letterSpacing: "0.14em",
+                    textTransform: "uppercase",
+                  }}
+                >
+                  {article.date}
+                </span>
+                <span
+                  className="mono"
+                  style={{
+                    fontSize: 11,
+                    color: "var(--ink-faint)",
+                    letterSpacing: "0.14em",
+                    textTransform: "uppercase",
+                  }}
+                >
+                  {article.type}
+                </span>
+              </div>
+
+              {/* Title */}
+              <h3
                 style={{
-                  fontSize: 11,
-                  color: "var(--ink-faint)",
-                  letterSpacing: "0.14em",
-                  textTransform: "uppercase",
+                  fontSize: 20,
+                  fontWeight: 500,
+                  letterSpacing: "-0.015em",
+                  lineHeight: 1.3,
+                  color: "var(--ink)",
+                  marginBottom: 10,
                 }}
               >
-                Story
+                {article.title}
+              </h3>
+
+              {/* Dek */}
+              <p
+                style={{
+                  fontSize: 14,
+                  color: "var(--ink-soft)",
+                  lineHeight: 1.65,
+                  marginBottom: 16,
+                }}
+              >
+                {article.dek}
+              </p>
+
+              {/* CTA */}
+              <span
+                style={{
+                  fontSize: 13,
+                  fontWeight: 500,
+                  color: "var(--accent)",
+                }}
+              >
+                Read more →
               </span>
-            </div>
-
-            {/* Title */}
-            <h3
-              style={{
-                fontSize: 24,
-                fontWeight: 500,
-                letterSpacing: "-0.015em",
-                lineHeight: 1.25,
-                color: "var(--ink)",
-                marginBottom: 12,
-              }}
-            >
-              {writing.title}
-            </h3>
-
-            {/* Dek */}
-            <p
-              style={{
-                fontSize: 14,
-                color: "var(--ink-soft)",
-                lineHeight: 1.65,
-                marginBottom: 16,
-              }}
-            >
-              {writing.dek}
-            </p>
-
-            {/* CTA */}
-            <span
-              style={{
-                fontSize: 13,
-                fontWeight: 500,
-                color: "var(--accent)",
-              }}
-            >
-              Read more →
-            </span>
-          </a>
+            </a>
+          ))}
         </div>
       </div>
     </section>
