@@ -24,7 +24,7 @@ export const role2 = "AI Product Builder";
 export const heroHeadline = "Marketer who ships, builder who positions.";
 
 export const heroSub =
-  "Product marketing & GTM leader building and shipping AI-powered workflows to understand how technical capability translates into adoption, usage, and revenue growth. I focus on structured systems, iteration, and the real-world tradeoffs that shape AI product success.";
+  "Product marketing and GTM leader bridging technical capability and distribution strategy — building with AI tools, shipping products, and driving adoption and growth.";
 
 export const socials: { label: string; href: string }[] = [
   { label: "Email",     href: "mailto:elenawong1031@gmail.com" },
@@ -35,10 +35,10 @@ export const socials: { label: string; href: string }[] = [
 ];
 
 export const about: string[] = [
-  "I'm Elena Wang, a product marketing and GTM leader focused on driving adoption and revenue growth for technology platforms. I've partnered closely with Product and Engineering to shape positioning, rollout strategy, and lifecycle programs that translate customer insight into measurable usage and revenue impact.",
-  "As AI reshapes how products are built and distributed, I've been prototyping AI-powered workflows end-to-end using AI-assisted development (“vibe coding”) and deploying them to production. This hands-on experience taught me what it takes to build usable AI products: structured inputs, iteration loops, and tradeoffs around latency and inference cost.",
-  "My goal is to help AI companies bridge technical capability with clear positioning, combining hands-on product understanding with distribution strategy that drives sustained adoption and growth.",
-  "Outside of work, I’m an avid traveler who has visited over 50 countries across all seven continents — an experience that deepens my curiosity about how different cultures approach and solve problems, shaping how I think about marketing and building products for diverse users. I also enjoy staying active, challenging myself, and hitting goals — including finishing the NYC Marathon a few years ago.",
+  "I’m Elena Wang, a product marketing and GTM leader focused on driving adoption and revenue growth for technology platforms. I partner closely with Product and Engineering to shape positioning, launch strategy, and lifecycle programs that turn customer insight into measurable impact.",
+  "As AI reshapes how products are built and distributed, I’ve been building and shipping my own apps using AI-assisted development (“vibe coding”). This hands-on experience taught me what it actually takes to go from concept to production.",
+  "My goal is to help AI companies bridge technical capability with clear positioning, combining product sense with distribution strategy that drives sustained growth.",
+  "Outside of work, I’ve traveled to over 50 countries across all seven continents — an experience that shapes how I think about building and marketing for diverse users. I also enjoy staying active and challenging myself, including finishing the NYC Marathon.",
 ];
 
 export const projects: Project[] = [
