@@ -12,7 +12,7 @@ export default function About() {
           title="My background & interests"
         />
         <div
-          className="section-pad grid-cols-1 md:grid-cols-2"
+          className="section-pad about-grid"
           style={{
             padding: "0 56px 64px",
             display: "grid",

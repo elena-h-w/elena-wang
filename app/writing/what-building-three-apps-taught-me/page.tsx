@@ -5,7 +5,7 @@ import Footer from "../../components/site/Footer";
 export const metadata: Metadata = {
   title: "What Building Three Apps Taught Me That I Didn't Expect | Elena Wang",
   description:
-    "Three months ago I had never shipped an app. Today I have two web apps and one mobile app on the App Store and Google Play. Here's what building them actually taught me.",
+    "What building three apps as a non-technical product marketer taught me about AI-assisted development, vibe coding, mobile vs. web, and shipping products from concept to production.",
   alternates: {
     canonical: "https://elenahw.com/writing/what-building-three-apps-taught-me",
   },

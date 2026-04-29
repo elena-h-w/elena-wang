@@ -109,6 +109,9 @@ html {
   /* Strategy grid */
   .strategy-2col { grid-template-columns: 1fr !important; }
 
+  /* About */
+  .about-grid { grid-template-columns: 1fr !important; }
+
   /* Contact */
   .contact-grid { display: block !important; }
   .contact-grid > div:last-child { margin-top: 32px; }

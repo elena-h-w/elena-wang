@@ -5,7 +5,7 @@ import Footer from "../../components/site/Footer";
 export const metadata: Metadata = {
   title: "When a Ski Trip Injury Led Me to Build Two Products in Eight Weeks | Elena Wang",
   description:
-    "I don't usually share personal stories. But if you've been thinking about starting something and keep putting it off, this might be the push you need.",
+    "How a ski injury led me to build two AI-assisted products in eight weeks as a non-technical product marketing leader — and what it taught me about shipping, vibe coding, and building with AI.",
   alternates: {
     canonical: "https://elenahw.com/writing/build-two-products-in-eight-weeks",
   },
