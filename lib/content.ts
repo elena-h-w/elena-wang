@@ -53,16 +53,17 @@ export const projects: Project[] = [
     bullets: [
       "Designed conversation-centric UX with multi-select topic tagging, follow-up reminders, and networking insights",
       "Launched on the App Store and Google Play",
+      "Conducted user interviews and shipped the top requests in the next release: outcome tracking, relationship stages, and outreach logging",
     ],
     reflection:
       "This project pushed me into mobile product development — navigating app build pipelines, native UX conventions, and the end-to-end process of shipping to real users on device.",
     stack: ["Expo", "React Native", "Supabase", "PostHog", "Vercel", "GitHub"],
   },
   {
-    name: "Impact Logger",
+    name: "Waylena Impact",
     tag: "AI-powered web app for professionals to track their impact and generate narratives for performance reviews, promotions, role changes, and resumes",
     links: [
-      { label: "Live site", href: "https://impactlogger.vercel.app" },
+      { label: "Live site", href: "https://impact.waylena.com" },
     ],
     bullets: [
       "Rebuilt from Lovable prototype using React, TypeScript, and Supabase for persistent data and auth",
