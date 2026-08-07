@@ -61,7 +61,7 @@ export const projects: Project[] = [
   },
   {
     name: "Waylena Impact",
-    tag: "AI-powered web app for professionals to track their impact and generate narratives for performance reviews, promotions, role changes, and resumes",
+    tag: "AI-powered web app for professionals to track their impact and generate narratives for performance review, promotion case, role change, and resume",
     links: [
       { label: "Live site", href: "https://impact.waylena.com" },
     ],
