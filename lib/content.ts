@@ -38,7 +38,7 @@ export const about: string[] = [
   "I’m Elena Wang, a product marketing and GTM leader focused on driving adoption and revenue growth for technology platforms. I partner closely with Product and Engineering to shape positioning, launch strategy, and lifecycle programs that turn customer insight into measurable impact.",
   "As AI reshapes how products are built and distributed, I’ve been building and shipping my own apps using AI-assisted development (“vibe coding”). This hands-on experience taught me what it actually takes to go from concept to production.",
   "My goal is to help AI companies bridge technical capability with clear positioning, combining product sense with distribution strategy that drives sustained growth.",
-  "Outside of work, I’ve traveled to over 50 countries across all seven continents — an experience that shapes how I think about building and marketing for diverse users. I also enjoy staying active and challenging myself, including finishing the NYC Marathon.",
+  "Outside of work, I’ve traveled to over 60 countries across all seven continents — an experience that shapes how I think about building and marketing for diverse users. I also enjoy staying active and challenging myself, including finishing the NYC Marathon.",
 ];
 
 export const projects: Project[] = [
